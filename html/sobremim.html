@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define o tipo de documento como HTML5 -->
+    <meta charset="UTF-8">
+    <!-- Configura o site para ser responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página -->
+    <title>Sobre Mim</title>
+    <!-- Pré-conecta às fontes do Google para melhorar o carregamento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Inclui a fonte 'Poppins' com diferentes pesos -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Inclui o arquivo de estilos principal -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Inclui um arquivo CSS específico para a página -->
+    <link rel="stylesheet" href="../css/sobremim.css">
+</head>
+<body>
+    <header>
+        <!-- Menu de navegação -->
+        <div id="links">
+            <!-- Links para as páginas do site -->
+            <a href="../html/sobremim.html">Sobre Mim</a>
+            <a href="../html/formacao.html">Formação</a>
+            <a href="../html/portifolio.html">Portfólio</a>
+            <a href="../html/contato.html">Contato</a>
+        </div>
+    </header>
+
+    <!-- Seção principal do corpo da página -->
+    <div id="corpo">
+        <div id="conteudo">
+            <!-- Container para exibir a foto -->
+            <div id="foto">
+                <img src="../imagens/casamento.jpeg" alt=""><br>
+            </div>
+            <!-- Container para o texto de apresentação -->
+            <div id="texto">
+                <h1>
+                    Olá!
+                </h1>
+                <p>
+                    Meu nome é Yáskara dos Santos e tenho 33 anos. Nasci no dia 28 de março de 1991, no Hospital da Cidade, em Passo Fundo - RS. Sou casada há 16 anos e vivo com meu marido e minhas duas filhas: Marcela, de 16 anos, e Antônia, de 10 anos. Além de me dedicar à minha família, adoro escutar música e caminhar. Para conhecer um pouco mais sobre minha trajetória e interesses, basta clicar nos links acima. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Adiciona um elemento SVG com uma onda decorativa no rodapé -->
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1430 99" version="1.2" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <!-- Define um gradiente para o preenchimento da onda -->
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="0" y2="0">
+                    <stop stop-color="rgba(235, 235, 235, 0)" offset="0%"></stop>
+                    <stop stop-color="rgba(235, 235, 235, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <!-- Desenha a forma da onda usando o gradiente definido -->
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,40L48,38.3C96,37,192,33,288,40C384,47,480,63,576,65C672,67,768,53,864,53.3C960,53,1056,67,1152,68.3C1248,70,1344,60,1440,61.7C1536,63,1632,77,1728,73.3C1824,70,1920,50,2016,36.7C2112,23,2208,17,2304,18.3C2400,20,2496,30,2592,43.3C2688,57,2784,73,2880,73.3C2976,73,3072,57,3168,55C3264,53,3360,67,3456,71.7C3552,77,3648,73,3744,61.7C3840,50,3936,30,4032,33.3C4128,37,4224,63,4320,63.3C4416,63,4512,37,4608,25C4704,13,4800,17,4896,26.7C4992,37,5088,53,5184,65C5280,77,5376,83,5472,76.7C5568,70,5664,50,5760,46.7C5856,43,5952,57,6048,60C6144,63,6240,57,6336,58.3C6432,60,6528,70,6624,76.7C6720,83,6816,87,6864,88.3L6912,90L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path>
+        </svg>
+
+        <div id="footer_itens">
+            <!-- Informações de rodapé -->
+            <div id="info">
+                <span>&copy Yáskara</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

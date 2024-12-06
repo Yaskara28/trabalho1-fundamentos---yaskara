@@ -1,0 +1,31 @@
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+#box{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#port{
+    text-decoration: underline solid #1d1d1dad;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
